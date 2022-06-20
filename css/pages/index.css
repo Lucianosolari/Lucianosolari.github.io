@@ -1,0 +1,13 @@
+#ciudad {
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: 600;
+}
+
+div.card {
+    box-shadow: 2px 0px 8px 3px #a5a2a2;
+    margin: 35px;
+    border-radius: 15px;
+    text-align: center;
+    width: 260px;
+}
