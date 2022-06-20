@@ -1,0 +1,27 @@
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+input {
+    padding-bottom: 10px;
+}
+
+section form div {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.valido {
+    background-color: #dc3545;
+}
+
+div.contenedor {
+    margin-right: 110px;
+    margin-left: 110px;
+}
