@@ -74,6 +74,11 @@ main {
     height: calc(100% - 120px);
 }
 
+main section {
+    display: flex;
+    justify-content: space-around;
+}
+
 h1 {
     text-align: center;
     margin: 0;
@@ -94,11 +99,6 @@ h2 {
 h3 {
     color: var(--color-theme);
     margin: 8px 0;
-}
-
-main section {
-    display: flex;
-    justify-content: space-around;
 }
 
 footer {
@@ -132,20 +132,13 @@ button {
     width: 100px;
 }
 
-div.mensaje {
-    display: grid;
-    grid-template-columns: 460px;
-    grid-template-rows: 70px;
-    align-items: center;
-    text-align: center;
-    margin-top: 20px;
-    justify-content: center;
-}
-
-p.mensaje_unificado {
-    border-radius: 10px;
-    color: #ffffff;
+.alerta {
+    border-radius: 20px;
+    color: white;
     padding: 15px;
+    margin: 10px;
+    text-align: center;
+    align-self: normal;
 }
 
 

@@ -11,6 +11,12 @@ section {
     font-weight: 500;
 }
 
+.añadir_ciudad {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .success {
     background-color: #28a745;
 }
